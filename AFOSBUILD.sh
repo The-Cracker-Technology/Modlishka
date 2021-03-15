@@ -1,10 +1,10 @@
-rm -rf /opt/ANDRAX/Modlishka/*
+rm -rf /opt/ANDRAX/modlishka/*
 
 export GOPATH=/home/andrax/go
 
 go get -u github.com/drk1wi/Modlishka
 
-strip /home/andrax/go/bin/modlishka
+strip /home/andrax/go/bin/Modlishka
 
-cp -Rf /home/andrax/go/bin/modlishka /opt/ANDRAX/Modlishka/
-cp -Rf templates /opt/ANDRAX/Modlishka/
+cp -Rf /home/andrax/go/bin/Modlishka /opt/ANDRAX/modlishka/
+cp -Rf templates /opt/ANDRAX/modlishka/
